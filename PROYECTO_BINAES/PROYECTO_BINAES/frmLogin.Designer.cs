@@ -170,6 +170,7 @@ namespace PROYECTO_BINAES
             this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmLogin_FormClosing);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmLogin_MouseDown);
             this.pnlLogin.ResumeLayout(false);
             this.pnlLogin.PerformLayout();
