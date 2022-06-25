@@ -18,3 +18,4 @@ C:\Users\jeffr\Desktop\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYEC
 C:\Users\jeffr\Desktop\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.GenerateResource.Cache
 C:\Users\jeffr\Desktop\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.exe
 C:\Users\jeffr\Desktop\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.pdb
+C:\Users\jeffr\Desktop\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.frmLogin.resources
