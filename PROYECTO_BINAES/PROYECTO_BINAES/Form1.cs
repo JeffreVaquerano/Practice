@@ -15,9 +15,20 @@ namespace PROYECTO_BINAES
     {
         bool sidebarExpand;
         bool homeCollapsed;
+
+        private Timer ti;
         public frmMenu()
         {
+            ti = new Timer();
+            ti.Tick += new EventHandler(eventoTimer);
             InitializeComponent();
+            ti.Enabled = true;
+        }
+
+        private void eventoTimer(object ob, EventArgs evt)
+        {
+            DateTime hoy = DateTime.Now;
+            lblReloj.Text = hoy.ToString("hh:mm:ss tt");
         }
 
         private void siderbarTimer_Tick(object sender, EventArgs e)

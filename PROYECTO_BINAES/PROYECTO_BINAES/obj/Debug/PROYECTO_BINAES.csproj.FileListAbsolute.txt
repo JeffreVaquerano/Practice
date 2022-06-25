@@ -9,3 +9,14 @@ C:\Users\mosca\Escritorio\LaboGUI\cp3-ocruzmartz\PROYECTO_BINAES\PROYECTO_BINAES
 C:\Users\mosca\Escritorio\LaboGUI\cp3-ocruzmartz\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.CoreCompileInputs.cache
 C:\Users\mosca\Escritorio\LaboGUI\cp3-ocruzmartz\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.exe
 C:\Users\mosca\Escritorio\LaboGUI\cp3-ocruzmartz\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.pdb
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\bin\Debug\PROYECTO_BINAES.exe.config
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\bin\Debug\PROYECTO_BINAES.exe
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\bin\Debug\PROYECTO_BINAES.pdb
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.AssemblyReference.cache
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.SuggestedBindingRedirects.cache
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.frmMenu.resources
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.Properties.Resources.resources
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.GenerateResource.cache
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.CoreCompileInputs.cache
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.exe
+C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.pdb

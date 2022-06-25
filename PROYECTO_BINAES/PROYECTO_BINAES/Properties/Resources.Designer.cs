@@ -313,6 +313,16 @@ namespace PROYECTO_BINAES.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap minus1 {
+            get {
+                object obj = ResourceManager.GetObject("minus1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pencil_free_icon_font {
             get {
                 object obj = ResourceManager.GetObject("pencil-free-icon-font", resourceCulture);

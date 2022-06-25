@@ -31,44 +31,28 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.picLogoBinaes = new System.Windows.Forms.PictureBox();
-            this.btnMenu = new System.Windows.Forms.PictureBox();
             this.flpSidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnInicio = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.btnEventos = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnUsuarios = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnBusqueda = new System.Windows.Forms.Button();
             this.HomeContainer = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.btnReservas = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.btnPrestamos = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.btnEjemplares = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.btnColecciones = new System.Windows.Forms.Button();
             this.pnlInicio = new System.Windows.Forms.Panel();
-            this.btnHome = new System.Windows.Forms.Button();
             this.siderbarTimer = new System.Windows.Forms.Timer(this.components);
             this.HomeTimer = new System.Windows.Forms.Timer(this.components);
             this.tabContenedor = new System.Windows.Forms.TabControl();
             this.tabInicio = new System.Windows.Forms.TabPage();
             this.tlpInicio = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTextoInicio = new System.Windows.Forms.Label();
             this.tabEventos = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtTituloEvento = new System.Windows.Forms.TextBox();
-            this.btnAñadirImagen = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
@@ -83,37 +67,23 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabUsuarios = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button9 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.tabBusqueda = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.button18 = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -121,28 +91,18 @@
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.tabColecciones = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
             this.tabEjemplares = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
@@ -158,17 +118,16 @@
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label27 = new System.Windows.Forms.Label();
             this.tabPrestamos = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -183,19 +142,11 @@
             this.dataGridView6 = new System.Windows.Forms.DataGridView();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
             this.comboBox9 = new System.Windows.Forms.ComboBox();
-            this.tabReservas = new System.Windows.Forms.TabPage();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
+            this.tabReservas = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.label22 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
             this.label23 = new System.Windows.Forms.Label();
@@ -212,14 +163,62 @@
             this.comboBox10 = new System.Windows.Forms.ComboBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.panel21 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.lblReloj = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnAñadirImagen = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.button20 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
-            this.label27 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.picLogoBinaes = new System.Windows.Forms.PictureBox();
+            this.btnMenu = new System.Windows.Forms.PictureBox();
+            this.btnInicio = new System.Windows.Forms.Button();
+            this.btnEventos = new System.Windows.Forms.Button();
+            this.btnUsuarios = new System.Windows.Forms.Button();
+            this.btnBusqueda = new System.Windows.Forms.Button();
+            this.btnReservas = new System.Windows.Forms.Button();
+            this.btnPrestamos = new System.Windows.Forms.Button();
+            this.btnEjemplares = new System.Windows.Forms.Button();
+            this.btnColecciones = new System.Windows.Forms.Button();
+            this.btnHome = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picLogoBinaes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.flpSidebar.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -234,12 +233,8 @@
             this.tabContenedor.SuspendLayout();
             this.tabInicio.SuspendLayout();
             this.tlpInicio.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.tabEventos.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -249,28 +244,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabUsuarios.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel13.SuspendLayout();
             this.tabBusqueda.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.tabColecciones.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.panel17.SuspendLayout();
             this.tabEjemplares.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -280,26 +267,40 @@
             this.groupBox9.SuspendLayout();
             this.panel18.SuspendLayout();
             this.groupBox10.SuspendLayout();
+            this.panel20.SuspendLayout();
             this.tabPrestamos.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.groupBox11.SuspendLayout();
             this.groupBox12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
             this.groupBox14.SuspendLayout();
-            this.tabReservas.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel20.SuspendLayout();
             this.panel19.SuspendLayout();
+            this.tabReservas.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.groupBox13.SuspendLayout();
             this.groupBox15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             this.groupBox16.SuspendLayout();
             this.panel21.SuspendLayout();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogoBinaes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -311,30 +312,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(240, 122);
             this.panel1.TabIndex = 0;
-            // 
-            // picLogoBinaes
-            // 
-            this.picLogoBinaes.Image = global::PROYECTO_BINAES.Properties.Resources.logo_removebg_preview;
-            this.picLogoBinaes.Location = new System.Drawing.Point(75, 0);
-            this.picLogoBinaes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.picLogoBinaes.Name = "picLogoBinaes";
-            this.picLogoBinaes.Size = new System.Drawing.Size(163, 119);
-            this.picLogoBinaes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLogoBinaes.TabIndex = 1;
-            this.picLogoBinaes.TabStop = false;
-            // 
-            // btnMenu
-            // 
-            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
-            this.btnMenu.Location = new System.Drawing.Point(33, 48);
-            this.btnMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(32, 26);
-            this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnMenu.TabIndex = 0;
-            this.btnMenu.TabStop = false;
-            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // flpSidebar
             // 
@@ -363,24 +340,6 @@
             this.panel2.Size = new System.Drawing.Size(248, 50);
             this.panel2.TabIndex = 2;
             // 
-            // btnInicio
-            // 
-            this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInicio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInicio.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
-            this.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInicio.Location = new System.Drawing.Point(-11, -19);
-            this.btnInicio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnInicio.Size = new System.Drawing.Size(289, 74);
-            this.btnInicio.TabIndex = 1;
-            this.btnInicio.Text = "            Inicio";
-            this.btnInicio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInicio.UseVisualStyleBackColor = true;
-            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.btnEventos);
@@ -389,24 +348,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(248, 50);
             this.panel5.TabIndex = 5;
-            // 
-            // btnEventos
-            // 
-            this.btnEventos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEventos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEventos.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnEventos.Image = global::PROYECTO_BINAES.Properties.Resources.time_add_free_icon_font2;
-            this.btnEventos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEventos.Location = new System.Drawing.Point(-11, -16);
-            this.btnEventos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnEventos.Name = "btnEventos";
-            this.btnEventos.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnEventos.Size = new System.Drawing.Size(289, 74);
-            this.btnEventos.TabIndex = 1;
-            this.btnEventos.Text = "            Eventos";
-            this.btnEventos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEventos.UseVisualStyleBackColor = true;
-            this.btnEventos.Click += new System.EventHandler(this.btnEventos_Click);
             // 
             // panel4
             // 
@@ -417,24 +358,6 @@
             this.panel4.Size = new System.Drawing.Size(248, 50);
             this.panel4.TabIndex = 4;
             // 
-            // btnUsuarios
-            // 
-            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUsuarios.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUsuarios.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnUsuarios.Image = global::PROYECTO_BINAES.Properties.Resources.user_add_free_icon_font1;
-            this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuarios.Location = new System.Drawing.Point(-11, -16);
-            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnUsuarios.Size = new System.Drawing.Size(289, 74);
-            this.btnUsuarios.TabIndex = 1;
-            this.btnUsuarios.Text = "            Usuarios";
-            this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnUsuarios.UseVisualStyleBackColor = true;
-            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.btnBusqueda);
@@ -443,24 +366,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(248, 50);
             this.panel3.TabIndex = 3;
-            // 
-            // btnBusqueda
-            // 
-            this.btnBusqueda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBusqueda.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBusqueda.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnBusqueda.Image = global::PROYECTO_BINAES.Properties.Resources.search_alt_free_icon_font2;
-            this.btnBusqueda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBusqueda.Location = new System.Drawing.Point(-11, -16);
-            this.btnBusqueda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnBusqueda.Name = "btnBusqueda";
-            this.btnBusqueda.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnBusqueda.Size = new System.Drawing.Size(289, 74);
-            this.btnBusqueda.TabIndex = 1;
-            this.btnBusqueda.Text = "            Búsqueda";
-            this.btnBusqueda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBusqueda.UseVisualStyleBackColor = true;
-            this.btnBusqueda.Click += new System.EventHandler(this.btnBusqueda_Click);
             // 
             // HomeContainer
             // 
@@ -486,25 +391,6 @@
             this.panel10.Size = new System.Drawing.Size(248, 50);
             this.panel10.TabIndex = 5;
             // 
-            // btnReservas
-            // 
-            this.btnReservas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnReservas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReservas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReservas.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnReservas.Image = global::PROYECTO_BINAES.Properties.Resources.circle_small_free_icon_font__1_;
-            this.btnReservas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservas.Location = new System.Drawing.Point(-11, -16);
-            this.btnReservas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnReservas.Name = "btnReservas";
-            this.btnReservas.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnReservas.Size = new System.Drawing.Size(289, 80);
-            this.btnReservas.TabIndex = 1;
-            this.btnReservas.Text = "            Reservas";
-            this.btnReservas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReservas.UseVisualStyleBackColor = false;
-            this.btnReservas.Click += new System.EventHandler(this.btnReservas_Click);
-            // 
             // panel9
             // 
             this.panel9.Controls.Add(this.btnPrestamos);
@@ -513,25 +399,6 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(248, 50);
             this.panel9.TabIndex = 4;
-            // 
-            // btnPrestamos
-            // 
-            this.btnPrestamos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrestamos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrestamos.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnPrestamos.Image = global::PROYECTO_BINAES.Properties.Resources.circle_small_free_icon_font__1_;
-            this.btnPrestamos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPrestamos.Location = new System.Drawing.Point(-11, -16);
-            this.btnPrestamos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnPrestamos.Name = "btnPrestamos";
-            this.btnPrestamos.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnPrestamos.Size = new System.Drawing.Size(289, 80);
-            this.btnPrestamos.TabIndex = 1;
-            this.btnPrestamos.Text = "            Préstamos";
-            this.btnPrestamos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPrestamos.UseVisualStyleBackColor = false;
-            this.btnPrestamos.Click += new System.EventHandler(this.btnPrestamos_Click);
             // 
             // panel8
             // 
@@ -542,25 +409,6 @@
             this.panel8.Size = new System.Drawing.Size(248, 50);
             this.panel8.TabIndex = 3;
             // 
-            // btnEjemplares
-            // 
-            this.btnEjemplares.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnEjemplares.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEjemplares.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEjemplares.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnEjemplares.Image = global::PROYECTO_BINAES.Properties.Resources.circle_small_free_icon_font__1_;
-            this.btnEjemplares.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEjemplares.Location = new System.Drawing.Point(-11, -16);
-            this.btnEjemplares.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnEjemplares.Name = "btnEjemplares";
-            this.btnEjemplares.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnEjemplares.Size = new System.Drawing.Size(289, 80);
-            this.btnEjemplares.TabIndex = 1;
-            this.btnEjemplares.Text = "            Ejemplares";
-            this.btnEjemplares.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEjemplares.UseVisualStyleBackColor = false;
-            this.btnEjemplares.Click += new System.EventHandler(this.btnEjemplares_Click);
-            // 
             // panel7
             // 
             this.panel7.Controls.Add(this.btnColecciones);
@@ -570,25 +418,6 @@
             this.panel7.Size = new System.Drawing.Size(248, 50);
             this.panel7.TabIndex = 2;
             // 
-            // btnColecciones
-            // 
-            this.btnColecciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnColecciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnColecciones.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnColecciones.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnColecciones.Image = global::PROYECTO_BINAES.Properties.Resources.circle_small_free_icon_font__1_;
-            this.btnColecciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnColecciones.Location = new System.Drawing.Point(-11, -16);
-            this.btnColecciones.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnColecciones.Name = "btnColecciones";
-            this.btnColecciones.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnColecciones.Size = new System.Drawing.Size(289, 80);
-            this.btnColecciones.TabIndex = 1;
-            this.btnColecciones.Text = "            Colecciones";
-            this.btnColecciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnColecciones.UseVisualStyleBackColor = false;
-            this.btnColecciones.Click += new System.EventHandler(this.btnColecciones_Click);
-            // 
             // pnlInicio
             // 
             this.pnlInicio.Controls.Add(this.btnHome);
@@ -597,25 +426,6 @@
             this.pnlInicio.Name = "pnlInicio";
             this.pnlInicio.Size = new System.Drawing.Size(248, 50);
             this.pnlInicio.TabIndex = 1;
-            // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnHome.Image = global::PROYECTO_BINAES.Properties.Resources.menu_dots_free_icon_font;
-            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.Location = new System.Drawing.Point(-11, -16);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
-            this.btnHome.Size = new System.Drawing.Size(289, 80);
-            this.btnHome.TabIndex = 1;
-            this.btnHome.Text = "            Administrar";
-            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHome.UseVisualStyleBackColor = false;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // siderbarTimer
             // 
@@ -666,65 +476,41 @@
             this.tlpInicio.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
             this.tlpInicio.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tlpInicio.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tlpInicio.Controls.Add(this.lblReloj, 0, 5);
             this.tlpInicio.Controls.Add(this.pictureBox6, 4, 0);
             this.tlpInicio.Controls.Add(this.pictureBox5, 3, 0);
-            this.tlpInicio.Controls.Add(this.label1, 1, 2);
+            this.tlpInicio.Controls.Add(this.lblTextoInicio, 0, 2);
             this.tlpInicio.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tlpInicio.Location = new System.Drawing.Point(3, 3);
             this.tlpInicio.Name = "tlpInicio";
             this.tlpInicio.RowCount = 6;
-            this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.131965F));
-            this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.92962F));
+            this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.558824F));
+            this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.26471F));
             this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.95601F));
             this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.80645F));
+            this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tlpInicio.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tlpInicio.Size = new System.Drawing.Size(1015, 680);
             this.tlpInicio.TabIndex = 3;
             // 
-            // pictureBox6
+            // lblTextoInicio
             // 
-            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblTextoInicio.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox6.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
-            this.pictureBox6.Location = new System.Drawing.Point(952, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(60, 28);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 3;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
-            this.pictureBox5.Location = new System.Drawing.Point(913, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(33, 28);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(150, 128);
-            this.label1.Name = "label1";
-            this.tlpInicio.SetRowSpan(this.label1, 3);
-            this.label1.Size = new System.Drawing.Size(647, 373);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "BIENIVENIDOS";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTextoInicio.AutoSize = true;
+            this.tlpInicio.SetColumnSpan(this.lblTextoInicio, 5);
+            this.lblTextoInicio.Font = new System.Drawing.Font("Segoe UI Semibold", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTextoInicio.ForeColor = System.Drawing.Color.Black;
+            this.lblTextoInicio.Location = new System.Drawing.Point(3, 128);
+            this.lblTextoInicio.Name = "lblTextoInicio";
+            this.tlpInicio.SetRowSpan(this.lblTextoInicio, 3);
+            this.lblTextoInicio.Size = new System.Drawing.Size(1009, 374);
+            this.lblTextoInicio.TabIndex = 5;
+            this.lblTextoInicio.Text = "BIBLIOTECA NACIONAL DE \r\nEL SALVADOR";
+            this.lblTextoInicio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabEventos
             // 
@@ -779,17 +565,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1015, 680);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
-            this.pictureBox2.Location = new System.Drawing.Point(946, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(28, 24);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
             // label2
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -802,17 +577,6 @@
             this.label2.Size = new System.Drawing.Size(543, 38);
             this.label2.TabIndex = 9;
             this.label2.Text = "Eventos";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
-            this.pictureBox1.Location = new System.Drawing.Point(980, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 24);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // label3
             // 
@@ -840,22 +604,6 @@
             this.txtTituloEvento.Text = "Titulo del evento...";
             this.txtTituloEvento.Enter += new System.EventHandler(this.txtTituloEvento_Enter_1);
             this.txtTituloEvento.Leave += new System.EventHandler(this.txtTituloEvento_Leave_1);
-            // 
-            // btnAñadirImagen
-            // 
-            this.btnAñadirImagen.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAñadirImagen.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAñadirImagen.ForeColor = System.Drawing.Color.DimGray;
-            this.btnAñadirImagen.Image = global::PROYECTO_BINAES.Properties.Resources.picture_free_icon_font;
-            this.btnAñadirImagen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAñadirImagen.Location = new System.Drawing.Point(611, 130);
-            this.btnAñadirImagen.Name = "btnAñadirImagen";
-            this.btnAñadirImagen.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnAñadirImagen.Size = new System.Drawing.Size(325, 36);
-            this.btnAñadirImagen.TabIndex = 14;
-            this.btnAñadirImagen.Text = "       Añadir imagen...";
-            this.btnAñadirImagen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAñadirImagen.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -1025,40 +773,6 @@
             this.panel11.Size = new System.Drawing.Size(329, 58);
             this.panel11.TabIndex = 19;
             // 
-            // button1
-            // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(199, 8);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(127, 47);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "   Cancelar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(66, 8);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(127, 47);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "   Guardar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // panel12
             // 
             this.panel12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1070,40 +784,6 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(543, 59);
             this.panel12.TabIndex = 20;
-            // 
-            // button4
-            // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Image = global::PROYECTO_BINAES.Properties.Resources.basura;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(138, 8);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(127, 47);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "   Eliminar";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = global::PROYECTO_BINAES.Properties.Resources.lapiz;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(5, 8);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(127, 47);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "   Editar";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -1175,17 +855,6 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1015, 680);
             this.tableLayoutPanel2.TabIndex = 5;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
-            this.pictureBox3.Location = new System.Drawing.Point(946, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(28, 23);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
             // label8
             // 
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1198,17 +867,6 @@
             this.label8.Size = new System.Drawing.Size(543, 36);
             this.label8.TabIndex = 9;
             this.label8.Text = "Usuarios";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox4.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
-            this.pictureBox4.Location = new System.Drawing.Point(980, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 23);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
             // 
             // label9
             // 
@@ -1234,22 +892,6 @@
             this.textBox2.Size = new System.Drawing.Size(325, 23);
             this.textBox2.TabIndex = 13;
             this.textBox2.Text = "Nombre...";
-            // 
-            // button9
-            // 
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.DimGray;
-            this.button9.Image = global::PROYECTO_BINAES.Properties.Resources.picture_free_icon_font;
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(611, 122);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(325, 32);
-            this.button9.TabIndex = 14;
-            this.button9.Text = "       Añadir imagen...";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
@@ -1318,40 +960,6 @@
             this.panel14.Size = new System.Drawing.Size(543, 62);
             this.panel14.TabIndex = 20;
             // 
-            // button12
-            // 
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Image = global::PROYECTO_BINAES.Properties.Resources.basura;
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.Location = new System.Drawing.Point(138, 8);
-            this.button12.Name = "button12";
-            this.button12.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button12.Size = new System.Drawing.Size(127, 47);
-            this.button12.TabIndex = 2;
-            this.button12.Text = "   Eliminar";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Image = global::PROYECTO_BINAES.Properties.Resources.lapiz;
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.Location = new System.Drawing.Point(5, 8);
-            this.button13.Name = "button13";
-            this.button13.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button13.Size = new System.Drawing.Size(127, 47);
-            this.button13.TabIndex = 2;
-            this.button13.Text = "   Editar";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
             // dataGridView2
             // 
             this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1374,40 +982,6 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(329, 57);
             this.panel13.TabIndex = 19;
-            // 
-            // button10
-            // 
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(199, 8);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(127, 47);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "   Cancelar";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(66, 8);
-            this.button11.Name = "button11";
-            this.button11.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button11.Size = new System.Drawing.Size(127, 47);
-            this.button11.TabIndex = 1;
-            this.button11.Text = "   Guardar";
-            this.button11.UseVisualStyleBackColor = true;
             // 
             // tabBusqueda
             // 
@@ -1456,43 +1030,6 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1015, 680);
             this.tableLayoutPanel3.TabIndex = 6;
-            // 
-            // button18
-            // 
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Image = global::PROYECTO_BINAES.Properties.Resources.busqueda;
-            this.button18.Location = new System.Drawing.Point(589, 98);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(59, 45);
-            this.button18.TabIndex = 1;
-            this.button18.Text = "   ";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
-            this.pictureBox7.Location = new System.Drawing.Point(946, 3);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(28, 23);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 4;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox8.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
-            this.pictureBox8.Location = new System.Drawing.Point(980, 3);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(32, 23);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 3;
-            this.pictureBox8.TabStop = false;
             // 
             // label10
             // 
@@ -1602,17 +1139,6 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(1015, 680);
             this.tableLayoutPanel4.TabIndex = 6;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox9.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
-            this.pictureBox9.Location = new System.Drawing.Point(946, 3);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(28, 23);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 4;
-            this.pictureBox9.TabStop = false;
-            // 
             // label11
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1625,17 +1151,6 @@
             this.label11.Size = new System.Drawing.Size(543, 37);
             this.label11.TabIndex = 9;
             this.label11.Text = "Colecciones";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox10.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
-            this.pictureBox10.Location = new System.Drawing.Point(980, 3);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(32, 23);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 3;
-            this.pictureBox10.TabStop = false;
             // 
             // label12
             // 
@@ -1673,40 +1188,6 @@
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(543, 64);
             this.panel16.TabIndex = 20;
-            // 
-            // button6
-            // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Image = global::PROYECTO_BINAES.Properties.Resources.basura;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(138, 8);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(127, 47);
-            this.button6.TabIndex = 2;
-            this.button6.Text = "   Eliminar";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Image = global::PROYECTO_BINAES.Properties.Resources.lapiz;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(5, 8);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(127, 47);
-            this.button7.TabIndex = 2;
-            this.button7.Text = "   Editar";
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // dataGridView4
             // 
@@ -1752,40 +1233,6 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(329, 64);
             this.panel17.TabIndex = 19;
-            // 
-            // button8
-            // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(199, 8);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button8.Size = new System.Drawing.Size(127, 47);
-            this.button8.TabIndex = 2;
-            this.button8.Text = "   Cancelar";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(66, 8);
-            this.button14.Name = "button14";
-            this.button14.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(127, 47);
-            this.button14.TabIndex = 1;
-            this.button14.Text = "   Guardar";
-            this.button14.UseVisualStyleBackColor = true;
             // 
             // tabEjemplares
             // 
@@ -1846,17 +1293,6 @@
             this.tableLayoutPanel5.Size = new System.Drawing.Size(1015, 680);
             this.tableLayoutPanel5.TabIndex = 6;
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox11.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
-            this.pictureBox11.Location = new System.Drawing.Point(946, 3);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(28, 23);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 4;
-            this.pictureBox11.TabStop = false;
-            // 
             // label13
             // 
             this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1870,31 +1306,6 @@
             this.label13.TabIndex = 9;
             this.label13.Text = "Ejemplares";
             // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox12.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
-            this.pictureBox12.Location = new System.Drawing.Point(980, 3);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(32, 23);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 3;
-            this.pictureBox12.TabStop = false;
-            // 
-            // label14
-            // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label14.Location = new System.Drawing.Point(611, 39);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(329, 38);
-            this.label14.TabIndex = 10;
-            this.label14.Text = "Añadir/editar ejemplar";
-            // 
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1905,22 +1316,6 @@
             this.textBox12.Size = new System.Drawing.Size(325, 23);
             this.textBox12.TabIndex = 13;
             this.textBox12.Text = "Nombre...";
-            // 
-            // button5
-            // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.DimGray;
-            this.button5.Image = global::PROYECTO_BINAES.Properties.Resources.picture_free_icon_font;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(611, 111);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(325, 32);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "       Añadir imagen...";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // textBox15
             // 
@@ -2103,74 +1498,6 @@
             this.panel18.Size = new System.Drawing.Size(542, 59);
             this.panel18.TabIndex = 20;
             // 
-            // button17
-            // 
-            this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.Location = new System.Drawing.Point(404, 8);
-            this.button17.Name = "button17";
-            this.button17.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button17.Size = new System.Drawing.Size(127, 47);
-            this.button17.TabIndex = 2;
-            this.button17.Text = "   Cancelar";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Image = global::PROYECTO_BINAES.Properties.Resources.basura;
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(138, 8);
-            this.button15.Name = "button15";
-            this.button15.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button15.Size = new System.Drawing.Size(127, 47);
-            this.button15.TabIndex = 2;
-            this.button15.Text = "   Eliminar";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
-            this.button19.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button19.Location = new System.Drawing.Point(271, 8);
-            this.button19.Name = "button19";
-            this.button19.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button19.Size = new System.Drawing.Size(127, 47);
-            this.button19.TabIndex = 1;
-            this.button19.Text = "   Guardar";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Image = global::PROYECTO_BINAES.Properties.Resources.lapiz;
-            this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.Location = new System.Drawing.Point(5, 8);
-            this.button16.Name = "button16";
-            this.button16.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button16.Size = new System.Drawing.Size(127, 47);
-            this.button16.TabIndex = 2;
-            this.button16.Text = "   Editar";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.comboBox8);
@@ -2194,6 +1521,62 @@
             this.comboBox8.Name = "comboBox8";
             this.comboBox8.Size = new System.Drawing.Size(322, 31);
             this.comboBox8.TabIndex = 29;
+            // 
+            // label14
+            // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label14.Location = new System.Drawing.Point(611, 39);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(329, 38);
+            this.label14.TabIndex = 10;
+            this.label14.Text = "Añadir/editar ejemplar";
+            // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.radioButton2);
+            this.panel20.Controls.Add(this.radioButton1);
+            this.panel20.Controls.Add(this.label27);
+            this.panel20.Location = new System.Drawing.Point(40, 644);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(542, 33);
+            this.panel20.TabIndex = 37;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(484, 6);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(46, 20);
+            this.radioButton2.TabIndex = 2;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "No";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(435, 7);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(40, 20);
+            this.radioButton1.TabIndex = 1;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Sí";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(316, 9);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(96, 17);
+            this.label27.TabIndex = 0;
+            this.label27.Text = "Disponibilidad:";
             // 
             // tabPrestamos
             // 
@@ -2245,17 +1628,6 @@
             this.tableLayoutPanel6.Size = new System.Drawing.Size(1015, 680);
             this.tableLayoutPanel6.TabIndex = 5;
             // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox13.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
-            this.pictureBox13.Location = new System.Drawing.Point(946, 3);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(28, 24);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 4;
-            this.pictureBox13.TabStop = false;
-            // 
             // label15
             // 
             this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -2268,17 +1640,6 @@
             this.label15.Size = new System.Drawing.Size(543, 39);
             this.label15.TabIndex = 9;
             this.label15.Text = "Préstamos";
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox14.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
-            this.pictureBox14.Location = new System.Drawing.Point(980, 3);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(32, 24);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 3;
-            this.pictureBox14.TabStop = false;
             // 
             // label16
             // 
@@ -2451,43 +1812,6 @@
             this.comboBox9.Size = new System.Drawing.Size(320, 31);
             this.comboBox9.TabIndex = 28;
             // 
-            // tabReservas
-            // 
-            this.tabReservas.Controls.Add(this.tableLayoutPanel7);
-            this.tabReservas.Location = new System.Drawing.Point(4, 28);
-            this.tabReservas.Name = "tabReservas";
-            this.tabReservas.Padding = new System.Windows.Forms.Padding(3);
-            this.tabReservas.Size = new System.Drawing.Size(1021, 686);
-            this.tabReservas.TabIndex = 7;
-            this.tabReservas.Text = "Reservas";
-            this.tabReservas.UseVisualStyleBackColor = true;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.White;
-            this.panel6.Controls.Add(this.tabContenedor);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel6.Location = new System.Drawing.Point(251, 2);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1029, 718);
-            this.panel6.TabIndex = 3;
-            // 
-            // panel20
-            // 
-            this.panel20.Controls.Add(this.radioButton2);
-            this.panel20.Controls.Add(this.radioButton1);
-            this.panel20.Controls.Add(this.label27);
-            this.panel20.Location = new System.Drawing.Point(40, 644);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(542, 33);
-            this.panel20.TabIndex = 37;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2508,39 +1832,16 @@
             this.panel19.Size = new System.Drawing.Size(329, 63);
             this.panel19.TabIndex = 34;
             // 
-            // button21
+            // tabReservas
             // 
-            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
-            this.button21.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button21.Location = new System.Drawing.Point(199, 8);
-            this.button21.Name = "button21";
-            this.button21.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button21.Size = new System.Drawing.Size(127, 47);
-            this.button21.TabIndex = 2;
-            this.button21.Text = "   Cancelar";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
-            this.button22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button22.Location = new System.Drawing.Point(66, 8);
-            this.button22.Name = "button22";
-            this.button22.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button22.Size = new System.Drawing.Size(127, 47);
-            this.button22.TabIndex = 1;
-            this.button22.Text = "   Guardar";
-            this.button22.UseVisualStyleBackColor = true;
+            this.tabReservas.Controls.Add(this.tableLayoutPanel7);
+            this.tabReservas.Location = new System.Drawing.Point(4, 28);
+            this.tabReservas.Name = "tabReservas";
+            this.tabReservas.Padding = new System.Windows.Forms.Padding(3);
+            this.tabReservas.Size = new System.Drawing.Size(1021, 686);
+            this.tabReservas.TabIndex = 7;
+            this.tabReservas.Text = "Reservas";
+            this.tabReservas.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel7
             // 
@@ -2581,17 +1882,6 @@
             this.tableLayoutPanel7.Size = new System.Drawing.Size(1015, 680);
             this.tableLayoutPanel7.TabIndex = 6;
             // 
-            // pictureBox15
-            // 
-            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox15.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
-            this.pictureBox15.Location = new System.Drawing.Point(946, 3);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(28, 24);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 4;
-            this.pictureBox15.TabStop = false;
-            // 
             // label21
             // 
             this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -2604,17 +1894,6 @@
             this.label21.Size = new System.Drawing.Size(543, 39);
             this.label21.TabIndex = 9;
             this.label21.Text = "Reservas";
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox16.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
-            this.pictureBox16.Location = new System.Drawing.Point(980, 3);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(32, 24);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 3;
-            this.pictureBox16.TabStop = false;
             // 
             // label22
             // 
@@ -2807,6 +2086,584 @@
             this.panel21.Size = new System.Drawing.Size(329, 63);
             this.panel21.TabIndex = 34;
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.Controls.Add(this.tabContenedor);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel6.Location = new System.Drawing.Point(251, 2);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1029, 718);
+            this.panel6.TabIndex = 3;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // lblReloj
+            // 
+            this.lblReloj.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tlpInicio.SetColumnSpan(this.lblReloj, 5);
+            this.lblReloj.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReloj.Location = new System.Drawing.Point(3, 502);
+            this.lblReloj.Name = "lblReloj";
+            this.lblReloj.Size = new System.Drawing.Size(1009, 178);
+            this.lblReloj.TabIndex = 0;
+            this.lblReloj.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox6.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
+            this.pictureBox6.Location = new System.Drawing.Point(979, 3);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(32, 25);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 3;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox5.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
+            this.pictureBox5.Location = new System.Drawing.Point(940, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(33, 25);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
+            this.pictureBox2.Location = new System.Drawing.Point(946, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(28, 24);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
+            this.pictureBox1.Location = new System.Drawing.Point(980, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnAñadirImagen
+            // 
+            this.btnAñadirImagen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAñadirImagen.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAñadirImagen.ForeColor = System.Drawing.Color.DimGray;
+            this.btnAñadirImagen.Image = global::PROYECTO_BINAES.Properties.Resources.picture_free_icon_font;
+            this.btnAñadirImagen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAñadirImagen.Location = new System.Drawing.Point(611, 130);
+            this.btnAñadirImagen.Name = "btnAñadirImagen";
+            this.btnAñadirImagen.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnAñadirImagen.Size = new System.Drawing.Size(325, 36);
+            this.btnAñadirImagen.TabIndex = 14;
+            this.btnAñadirImagen.Text = "       Añadir imagen...";
+            this.btnAñadirImagen.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAñadirImagen.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(199, 8);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(127, 47);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "   Cancelar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(66, 8);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(127, 47);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "   Guardar";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Image = global::PROYECTO_BINAES.Properties.Resources.basura;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(138, 8);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button4.Size = new System.Drawing.Size(127, 47);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "   Eliminar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = global::PROYECTO_BINAES.Properties.Resources.lapiz;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(5, 8);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(127, 47);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "   Editar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
+            this.pictureBox3.Location = new System.Drawing.Point(946, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(28, 23);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox4.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
+            this.pictureBox4.Location = new System.Drawing.Point(980, 3);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 23);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            // 
+            // button9
+            // 
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.DimGray;
+            this.button9.Image = global::PROYECTO_BINAES.Properties.Resources.picture_free_icon_font;
+            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.Location = new System.Drawing.Point(611, 122);
+            this.button9.Name = "button9";
+            this.button9.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button9.Size = new System.Drawing.Size(325, 32);
+            this.button9.TabIndex = 14;
+            this.button9.Text = "       Añadir imagen...";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Image = global::PROYECTO_BINAES.Properties.Resources.basura;
+            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.Location = new System.Drawing.Point(138, 8);
+            this.button12.Name = "button12";
+            this.button12.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button12.Size = new System.Drawing.Size(127, 47);
+            this.button12.TabIndex = 2;
+            this.button12.Text = "   Eliminar";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Image = global::PROYECTO_BINAES.Properties.Resources.lapiz;
+            this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button13.Location = new System.Drawing.Point(5, 8);
+            this.button13.Name = "button13";
+            this.button13.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button13.Size = new System.Drawing.Size(127, 47);
+            this.button13.TabIndex = 2;
+            this.button13.Text = "   Editar";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
+            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.Location = new System.Drawing.Point(199, 8);
+            this.button10.Name = "button10";
+            this.button10.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button10.Size = new System.Drawing.Size(127, 47);
+            this.button10.TabIndex = 2;
+            this.button10.Text = "   Cancelar";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(66, 8);
+            this.button11.Name = "button11";
+            this.button11.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button11.Size = new System.Drawing.Size(127, 47);
+            this.button11.TabIndex = 1;
+            this.button11.Text = "   Guardar";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Image = global::PROYECTO_BINAES.Properties.Resources.busqueda;
+            this.button18.Location = new System.Drawing.Point(589, 98);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(59, 45);
+            this.button18.TabIndex = 1;
+            this.button18.Text = "   ";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox7.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
+            this.pictureBox7.Location = new System.Drawing.Point(946, 3);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(28, 23);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox8.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
+            this.pictureBox8.Location = new System.Drawing.Point(980, 3);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(32, 23);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 3;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox9.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
+            this.pictureBox9.Location = new System.Drawing.Point(946, 3);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(28, 23);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 4;
+            this.pictureBox9.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox10.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
+            this.pictureBox10.Location = new System.Drawing.Point(980, 3);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(32, 23);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 3;
+            this.pictureBox10.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Image = global::PROYECTO_BINAES.Properties.Resources.basura;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.Location = new System.Drawing.Point(138, 8);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(127, 47);
+            this.button6.TabIndex = 2;
+            this.button6.Text = "   Eliminar";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = global::PROYECTO_BINAES.Properties.Resources.lapiz;
+            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.Location = new System.Drawing.Point(5, 8);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button7.Size = new System.Drawing.Size(127, 47);
+            this.button7.TabIndex = 2;
+            this.button7.Text = "   Editar";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.Location = new System.Drawing.Point(199, 8);
+            this.button8.Name = "button8";
+            this.button8.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button8.Size = new System.Drawing.Size(127, 47);
+            this.button8.TabIndex = 2;
+            this.button8.Text = "   Cancelar";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
+            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.Location = new System.Drawing.Point(66, 8);
+            this.button14.Name = "button14";
+            this.button14.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button14.Size = new System.Drawing.Size(127, 47);
+            this.button14.TabIndex = 1;
+            this.button14.Text = "   Guardar";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox11.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
+            this.pictureBox11.Location = new System.Drawing.Point(946, 3);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(28, 23);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox11.TabIndex = 4;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox12.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
+            this.pictureBox12.Location = new System.Drawing.Point(980, 3);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(32, 23);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox12.TabIndex = 3;
+            this.pictureBox12.TabStop = false;
+            // 
+            // button5
+            // 
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.DimGray;
+            this.button5.Image = global::PROYECTO_BINAES.Properties.Resources.picture_free_icon_font;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(611, 111);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(325, 32);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "       Añadir imagen...";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button17.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
+            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button17.Location = new System.Drawing.Point(404, 8);
+            this.button17.Name = "button17";
+            this.button17.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button17.Size = new System.Drawing.Size(127, 47);
+            this.button17.TabIndex = 2;
+            this.button17.Text = "   Cancelar";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Image = global::PROYECTO_BINAES.Properties.Resources.basura;
+            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button15.Location = new System.Drawing.Point(138, 8);
+            this.button15.Name = "button15";
+            this.button15.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button15.Size = new System.Drawing.Size(127, 47);
+            this.button15.TabIndex = 2;
+            this.button15.Text = "   Eliminar";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button19.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
+            this.button19.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button19.Location = new System.Drawing.Point(271, 8);
+            this.button19.Name = "button19";
+            this.button19.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button19.Size = new System.Drawing.Size(127, 47);
+            this.button19.TabIndex = 1;
+            this.button19.Text = "   Guardar";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Image = global::PROYECTO_BINAES.Properties.Resources.lapiz;
+            this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button16.Location = new System.Drawing.Point(5, 8);
+            this.button16.Name = "button16";
+            this.button16.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button16.Size = new System.Drawing.Size(127, 47);
+            this.button16.TabIndex = 2;
+            this.button16.Text = "   Editar";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox13.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
+            this.pictureBox13.Location = new System.Drawing.Point(946, 3);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(28, 24);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 4;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox14.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
+            this.pictureBox14.Location = new System.Drawing.Point(980, 3);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(32, 24);
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox14.TabIndex = 3;
+            this.pictureBox14.TabStop = false;
+            // 
+            // button21
+            // 
+            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Image = global::PROYECTO_BINAES.Properties.Resources.circulo_cruzado1;
+            this.button21.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button21.Location = new System.Drawing.Point(199, 8);
+            this.button21.Name = "button21";
+            this.button21.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button21.Size = new System.Drawing.Size(127, 47);
+            this.button21.TabIndex = 2;
+            this.button21.Text = "   Cancelar";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button22.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button22.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button22.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Image = global::PROYECTO_BINAES.Properties.Resources.disco;
+            this.button22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button22.Location = new System.Drawing.Point(66, 8);
+            this.button22.Name = "button22";
+            this.button22.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button22.Size = new System.Drawing.Size(127, 47);
+            this.button22.TabIndex = 1;
+            this.button22.Text = "   Guardar";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox15.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_minimizar_la_ventana_50;
+            this.pictureBox15.Location = new System.Drawing.Point(946, 3);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(28, 24);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 4;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox16.Image = global::PROYECTO_BINAES.Properties.Resources.icons8_cerrar_ventana_50;
+            this.pictureBox16.Location = new System.Drawing.Point(980, 3);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(32, 24);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 3;
+            this.pictureBox16.TabStop = false;
+            // 
             // button20
             // 
             this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -2841,37 +2698,196 @@
             this.button23.Text = "   Guardar";
             this.button23.UseVisualStyleBackColor = true;
             // 
-            // label27
+            // picLogoBinaes
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(316, 9);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(96, 17);
-            this.label27.TabIndex = 0;
-            this.label27.Text = "Disponibilidad:";
+            this.picLogoBinaes.Image = global::PROYECTO_BINAES.Properties.Resources.logo_removebg_preview;
+            this.picLogoBinaes.Location = new System.Drawing.Point(75, 0);
+            this.picLogoBinaes.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.picLogoBinaes.Name = "picLogoBinaes";
+            this.picLogoBinaes.Size = new System.Drawing.Size(163, 119);
+            this.picLogoBinaes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogoBinaes.TabIndex = 1;
+            this.picLogoBinaes.TabStop = false;
             // 
-            // radioButton1
+            // btnMenu
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(435, 7);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(40, 20);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Sí";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.btnMenu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnMenu.Image")));
+            this.btnMenu.Location = new System.Drawing.Point(33, 48);
+            this.btnMenu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(32, 26);
+            this.btnMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnMenu.TabIndex = 0;
+            this.btnMenu.TabStop = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
-            // radioButton2
+            // btnInicio
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(484, 6);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(46, 20);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "No";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInicio.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInicio.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
+            this.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInicio.Location = new System.Drawing.Point(-11, -19);
+            this.btnInicio.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnInicio.Name = "btnInicio";
+            this.btnInicio.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnInicio.Size = new System.Drawing.Size(289, 74);
+            this.btnInicio.TabIndex = 1;
+            this.btnInicio.Text = "            Inicio";
+            this.btnInicio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInicio.UseVisualStyleBackColor = true;
+            this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
+            // 
+            // btnEventos
+            // 
+            this.btnEventos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEventos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEventos.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnEventos.Image = global::PROYECTO_BINAES.Properties.Resources.time_add_free_icon_font2;
+            this.btnEventos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEventos.Location = new System.Drawing.Point(-11, -16);
+            this.btnEventos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEventos.Name = "btnEventos";
+            this.btnEventos.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnEventos.Size = new System.Drawing.Size(289, 74);
+            this.btnEventos.TabIndex = 1;
+            this.btnEventos.Text = "            Eventos";
+            this.btnEventos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEventos.UseVisualStyleBackColor = true;
+            this.btnEventos.Click += new System.EventHandler(this.btnEventos_Click);
+            // 
+            // btnUsuarios
+            // 
+            this.btnUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUsuarios.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUsuarios.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnUsuarios.Image = global::PROYECTO_BINAES.Properties.Resources.user_add_free_icon_font1;
+            this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUsuarios.Location = new System.Drawing.Point(-11, -16);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnUsuarios.Size = new System.Drawing.Size(289, 74);
+            this.btnUsuarios.TabIndex = 1;
+            this.btnUsuarios.Text = "            Usuarios";
+            this.btnUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnUsuarios.UseVisualStyleBackColor = true;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
+            // 
+            // btnBusqueda
+            // 
+            this.btnBusqueda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBusqueda.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBusqueda.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnBusqueda.Image = global::PROYECTO_BINAES.Properties.Resources.search_alt_free_icon_font2;
+            this.btnBusqueda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBusqueda.Location = new System.Drawing.Point(-11, -16);
+            this.btnBusqueda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnBusqueda.Name = "btnBusqueda";
+            this.btnBusqueda.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnBusqueda.Size = new System.Drawing.Size(289, 74);
+            this.btnBusqueda.TabIndex = 1;
+            this.btnBusqueda.Text = "            Búsqueda";
+            this.btnBusqueda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBusqueda.UseVisualStyleBackColor = true;
+            this.btnBusqueda.Click += new System.EventHandler(this.btnBusqueda_Click);
+            // 
+            // btnReservas
+            // 
+            this.btnReservas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnReservas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReservas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReservas.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnReservas.Image = global::PROYECTO_BINAES.Properties.Resources.circle_small_free_icon_font__1_;
+            this.btnReservas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservas.Location = new System.Drawing.Point(-11, -16);
+            this.btnReservas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReservas.Name = "btnReservas";
+            this.btnReservas.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnReservas.Size = new System.Drawing.Size(289, 80);
+            this.btnReservas.TabIndex = 1;
+            this.btnReservas.Text = "            Reservas";
+            this.btnReservas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReservas.UseVisualStyleBackColor = false;
+            this.btnReservas.Click += new System.EventHandler(this.btnReservas_Click);
+            // 
+            // btnPrestamos
+            // 
+            this.btnPrestamos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrestamos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrestamos.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnPrestamos.Image = global::PROYECTO_BINAES.Properties.Resources.circle_small_free_icon_font__1_;
+            this.btnPrestamos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPrestamos.Location = new System.Drawing.Point(-11, -16);
+            this.btnPrestamos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnPrestamos.Name = "btnPrestamos";
+            this.btnPrestamos.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnPrestamos.Size = new System.Drawing.Size(289, 80);
+            this.btnPrestamos.TabIndex = 1;
+            this.btnPrestamos.Text = "            Préstamos";
+            this.btnPrestamos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPrestamos.UseVisualStyleBackColor = false;
+            this.btnPrestamos.Click += new System.EventHandler(this.btnPrestamos_Click);
+            // 
+            // btnEjemplares
+            // 
+            this.btnEjemplares.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnEjemplares.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEjemplares.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEjemplares.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnEjemplares.Image = global::PROYECTO_BINAES.Properties.Resources.circle_small_free_icon_font__1_;
+            this.btnEjemplares.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEjemplares.Location = new System.Drawing.Point(-11, -16);
+            this.btnEjemplares.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnEjemplares.Name = "btnEjemplares";
+            this.btnEjemplares.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnEjemplares.Size = new System.Drawing.Size(289, 80);
+            this.btnEjemplares.TabIndex = 1;
+            this.btnEjemplares.Text = "            Ejemplares";
+            this.btnEjemplares.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEjemplares.UseVisualStyleBackColor = false;
+            this.btnEjemplares.Click += new System.EventHandler(this.btnEjemplares_Click);
+            // 
+            // btnColecciones
+            // 
+            this.btnColecciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnColecciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnColecciones.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnColecciones.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnColecciones.Image = global::PROYECTO_BINAES.Properties.Resources.circle_small_free_icon_font__1_;
+            this.btnColecciones.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnColecciones.Location = new System.Drawing.Point(-11, -16);
+            this.btnColecciones.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnColecciones.Name = "btnColecciones";
+            this.btnColecciones.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnColecciones.Size = new System.Drawing.Size(289, 80);
+            this.btnColecciones.TabIndex = 1;
+            this.btnColecciones.Text = "            Colecciones";
+            this.btnColecciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnColecciones.UseVisualStyleBackColor = false;
+            this.btnColecciones.Click += new System.EventHandler(this.btnColecciones_Click);
+            // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnHome.Image = global::PROYECTO_BINAES.Properties.Resources.menu_dots_free_icon_font;
+            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.Location = new System.Drawing.Point(-11, -16);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Padding = new System.Windows.Forms.Padding(35, 20, 0, 20);
+            this.btnHome.Size = new System.Drawing.Size(289, 80);
+            this.btnHome.TabIndex = 1;
+            this.btnHome.Text = "            Administrar";
+            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.UseVisualStyleBackColor = false;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // frmMenu
             // 
@@ -2881,7 +2897,7 @@
             this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.flpSidebar);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmMenu";
@@ -2890,8 +2906,6 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMenu_FormClosing);
             this.Load += new System.EventHandler(this.frmMenu_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.picLogoBinaes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.flpSidebar.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
@@ -2907,13 +2921,9 @@
             this.tabInicio.ResumeLayout(false);
             this.tlpInicio.ResumeLayout(false);
             this.tlpInicio.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.tabEventos.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -2926,32 +2936,24 @@
             this.tabUsuarios.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel14.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel13.ResumeLayout(false);
             this.tabBusqueda.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.tabColecciones.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel16.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.panel17.ResumeLayout(false);
             this.tabEjemplares.ResumeLayout(false);
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
@@ -2961,26 +2963,21 @@
             this.groupBox9.ResumeLayout(false);
             this.panel18.ResumeLayout(false);
             this.groupBox10.ResumeLayout(false);
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
             this.tabPrestamos.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.groupBox11.ResumeLayout(false);
             this.groupBox11.PerformLayout();
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
             this.groupBox14.ResumeLayout(false);
-            this.tabReservas.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
             this.panel19.ResumeLayout(false);
+            this.tabReservas.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.groupBox13.ResumeLayout(false);
             this.groupBox13.PerformLayout();
             this.groupBox15.ResumeLayout(false);
@@ -2988,6 +2985,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
             this.groupBox16.ResumeLayout(false);
             this.panel21.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogoBinaes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3023,7 +3039,7 @@
         private System.Windows.Forms.TableLayoutPanel tlpInicio;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTextoInicio;
         private System.Windows.Forms.TabPage tabEventos;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -3180,6 +3196,7 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label lblReloj;
     }
 }
 

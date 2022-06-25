@@ -166,9 +166,6 @@
   <data name="time-add-free-icon-font2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\time-add-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="handshake-free-icon-font" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\handshake-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BinaesLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BinaesLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,10 +175,19 @@
   <data name="directorio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\directorio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="lapiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lapiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search-alt-free-icon-font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-alt-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="busqueda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\busqueda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search-alt-free-icon-font2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search-alt-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-cerrar-ventana-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -211,22 +217,19 @@
   <data name="home-free-icon-font2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search-alt-free-icon-font2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search-alt-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="trash-free-icon-font1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trash-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="time-add-free-icon-font" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\time-add-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="handshake-free-icon-font" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handshake-free-icon-font.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="busqueda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\busqueda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="minus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minus1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
