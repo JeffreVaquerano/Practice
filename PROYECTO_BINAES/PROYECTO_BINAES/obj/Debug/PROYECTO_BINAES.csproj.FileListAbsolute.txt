@@ -20,3 +20,14 @@ C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Deb
 C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.CoreCompileInputs.cache
 C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.exe
 C:\Users\mosca\Escritorio\Login\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.pdb
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\bin\Debug\PROYECTO_BINAES.exe.config
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\bin\Debug\PROYECTO_BINAES.exe
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\bin\Debug\PROYECTO_BINAES.pdb
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.AssemblyReference.cache
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.SuggestedBindingRedirects.cache
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.frmMenu.resources
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.Properties.Resources.resources
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.GenerateResource.cache
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.csproj.CoreCompileInputs.cache
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.exe
+C:\Users\sarah\OneDrive\Escritorio\proyec\Practice\PROYECTO_BINAES\PROYECTO_BINAES\obj\Debug\PROYECTO_BINAES.pdb
