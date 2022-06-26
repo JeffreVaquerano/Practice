@@ -81,7 +81,7 @@ namespace PROYECTO_BINAES
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label1.Location = new System.Drawing.Point(94, 158);
+            this.label1.Location = new System.Drawing.Point(89, 217);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(225, 45);
             this.label1.TabIndex = 6;
@@ -94,7 +94,7 @@ namespace PROYECTO_BINAES
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.txtPass.ForeColor = System.Drawing.Color.DimGray;
-            this.txtPass.Location = new System.Drawing.Point(52, 354);
+            this.txtPass.Location = new System.Drawing.Point(52, 417);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(325, 27);
             this.txtPass.TabIndex = 2;
@@ -107,7 +107,7 @@ namespace PROYECTO_BINAES
             this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.txtUser.ForeColor = System.Drawing.Color.DimGray;
-            this.txtUser.Location = new System.Drawing.Point(52, 267);
+            this.txtUser.Location = new System.Drawing.Point(52, 330);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(325, 27);
             this.txtUser.TabIndex = 1;
