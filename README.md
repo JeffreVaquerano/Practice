@@ -1,2 +1,2 @@
 # Practice
-## Poryecto BD | POO
+## Proyecto BD | POO
